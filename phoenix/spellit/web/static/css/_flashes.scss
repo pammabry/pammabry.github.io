@@ -1,0 +1,12 @@
+.flash {
+  @include padding($small-spacing null);
+  color: $white;
+}
+
+.info-flash {
+  background-color: $purple;
+}
+
+.error-flash {
+  background-color: $red;
+}

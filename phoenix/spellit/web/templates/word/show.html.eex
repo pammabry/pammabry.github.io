@@ -1,0 +1,13 @@
+<h2>Show word</h2>
+
+<ul>
+
+  <li>
+    <strong>Word:</strong>
+    <%= @word.word %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: word_path(@conn, :edit, @word) %>
+<%= link "Back", to: word_path(@conn, :index) %>
