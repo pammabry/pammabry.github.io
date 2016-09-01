@@ -4,7 +4,7 @@ defmodule Spellit.Repo.Migrations.CreateWordList do
   def change do
     create table(:lists) do
       add :name, :string
-      add :word_id, references(:words, on_delete: :nothing), null: false
+      add :word_id, references(:words, on_delete: :nothing)
 
       timestamps()
     end

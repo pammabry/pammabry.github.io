@@ -7,7 +7,7 @@
     </div>
   <% end %>
 
-  <%= input f, :word, autofocus: "true" %>
+  <%= input f, :name, autofocus: "true" %>
 
   <div class="flex-buttons">
     <% if @add_another do %>
@@ -17,6 +17,6 @@
         class: "flex-button u-flex-1"
       ) %>
     <% end %>
-    <%= submit gettext("Save word"), class: "flex-button" %>
+    <%= submit gettext("Save list"), class: "flex-button" %>
   </div>
 <% end %>

@@ -3,11 +3,10 @@
 <ul>
 
   <li>
-    <strong>Word:</strong>
-    <%= @word.word %>
+    <strong>List:</strong>
+    <%= @list.name %>
   </li>
 
 </ul>
 
-<%= link "Edit", to: word_path(@conn, :edit, @word) %>
-<%= link "Back", to: word_path(@conn, :index) %>
+<%= link "Back", to: list_path(@conn, :index) %>

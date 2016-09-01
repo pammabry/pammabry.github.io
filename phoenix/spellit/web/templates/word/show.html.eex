@@ -9,5 +9,4 @@
 
 </ul>
 
-<%= link "Edit", to: word_path(@conn, :edit, @word) %>
 <%= link "Back", to: word_path(@conn, :index) %>
