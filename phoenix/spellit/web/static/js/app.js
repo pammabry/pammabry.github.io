@@ -19,3 +19,7 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+import autosubmit from "./autosubmit"
+import dropdown from "./dropdown"
+import selectize from "./selectize"
+import socket from "./socket"
