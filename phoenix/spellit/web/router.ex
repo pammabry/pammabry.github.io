@@ -16,7 +16,9 @@ defmodule Spellit.Router do
   scope "/", Spellit do
     pipe_through :browser
     resources "/words", WordController, only: [:create, :new, :show, :delete, :index]
-    resources "/lists", ListController, only: [:create, :new, :show, :delete, :index]
+    resources "/lists", ListController do
+      resources "/assigned_words", AssignedWordController, only: [:create, :delete]
+    end
 
     get "/", PageController, :index
   end
