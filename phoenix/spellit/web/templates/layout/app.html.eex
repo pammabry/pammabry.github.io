@@ -17,7 +17,7 @@
       <div class="container u-flex-row">
         <nav role="navigation">
           <ul class="nav-pills">
-            <li><a href="#">New Word List</a></li>
+            <li><a href="/lists/new">New Word List</a></li>
           </ul>
         </nav>
     </header>
