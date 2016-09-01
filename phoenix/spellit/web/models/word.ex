@@ -3,7 +3,7 @@ defmodule Spellit.Word do
 
   schema "words" do
     field :word, :string
-    has_many :word_lists, Spellit.WordList, on_delete: :delete_all
+    has_many :lists, Spellit.List, on_delete: :delete_all
 
     timestamps
   end

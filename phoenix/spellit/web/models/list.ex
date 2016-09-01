@@ -1,4 +1,4 @@
-defmodule Spellit.WordList do
+defmodule Spellit.List do
   use Spellit.Web, :model
   alias Spellit.Word
 
